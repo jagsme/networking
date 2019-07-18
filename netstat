@@ -1,0 +1,53 @@
+netstat -a -all
+   -this will show all listening and non-listening sockets
+
+netstat -at
+   -listen all TCP ports
+
+netstat -au
+   -listen all UDP ports
+
+netstat -l
+   -list only listening ports
+
+netstat -lt
+   -list only listening tcp ports
+
+netstat -lu
+   -list only listening udp ports
+
+netstat -lx
+   -list only listening unix port
+
+netstat -s
+   -list stats for all ports
+
+netstat -st
+   -list stats for tcp ports
+
+netstat -su
+   -list stats for udp ports
+
+netstat -pt
+   -list PID and program names
+
+netstat -c
+   -Print netstat information continuosly
+
+netstat --verbose
+   -get non-supporting address families
+
+netstat -r
+   -get kernel routing information
+
+netstat -ap | grep ssh
+   -get port on which a program is running
+
+netstat -au | grep ':80'
+   -get a process running on a given port
+
+netstat -i
+   -list of network interfaces
+
+netstat -ie
+   -display extended information on the interfaces
