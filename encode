@@ -1,0 +1,8 @@
+to encode something in ubuntu
+
+echo -n [filname or text] | base64
+
+to decode something in ubuntu
+
+echo [filename or text] | base64 -d
+ 
