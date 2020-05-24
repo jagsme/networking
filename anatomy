@@ -1,0 +1,19 @@
+Anatomy of a URL
+
+https://jagsmehra.blogspot.com:443/2014/10/security-testing-for-beginners.html#comments
+
+https = protocal - > protocol used to retrive resources 
+
+jagsmehra = subdomain 
+
+blogspot = domain
+
+.com = top level domain
+
+443 = port, default for http = 80 and https = 443
+
+/2014/10/security-testing-for-beginners.html = path to file name under the root
+
+#comments = anchor the browser to focus on particular part
+
+
