@@ -1,4 +1,4 @@
-*Base64 encoding*
+Base64 encoding
  - It is used to make life easier for us when we want to tranmit data in binary - > instead it converts 6 digit binary to a single digit.
 
 to encode something in ubuntu
@@ -9,7 +9,7 @@ to decode something in ubuntu
 
 echo [filename or text] | base64 -d
 
-*URL encoding*
+URL encoding
  It is also known as percent encoding, when we want to trasmit /, ?, or = over the network. These characters lie out side the ASCII characters set.
  e.g the space character is transmitted as %20 or +. 
  ` = 	%80	 or %E2%82%AC
